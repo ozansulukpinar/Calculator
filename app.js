@@ -134,7 +134,10 @@ $("#main").on("click", ".box", function () {
     ) {
       // do nothing
     }
-  } else {
+  } else if (id === "result") {
+    // do nothing
+  }
+  else {
     calculation = calculation + id;
     $("#result").text(calculation);
   }
