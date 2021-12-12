@@ -15,3 +15,18 @@
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
 }
+
+table {
+  table-layout: fixed;
+  width: 200px;
+}
+
+#result {
+  overflow: scroll;
+  width: 150px;
+}
+
+#C {
+  overflow: hidden;
+  width: 50px;
+}

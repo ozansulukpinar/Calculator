@@ -60,7 +60,7 @@ $("#main").on("click", ".box", function () {
       $("#result").text(result);
       
       result = result + "";
-      if(result  === "Infinity" || result === "NaN"){        
+      if(result  === "Infinity" || result === "NaN" || result === "-Infinity"){        
         calculation = "";
       }
       else{
